@@ -27,7 +27,7 @@ const eatDom = () => {
   <div id="health">
   <h2>${full}</h2>
   </div>
-  <div id = "buttons">
+  <div id = "foodButtons">
   <button id="goodFood">Healthy</button>
   <button id="badFood">Unhealthy</button>
   </div>
