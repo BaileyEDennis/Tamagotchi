@@ -1,8 +1,9 @@
 import '../styles/main.scss';
+import eat from './components/eat';
 
 const init = () => {
-  $('#app').html('<h1>Testing Tamagotchi</h1>');
-  console.warn('YOU ARE UP AND RUNNING!');
+  eat.eatDom();
+  eat.eatingButtons();
 };
 
 init();
