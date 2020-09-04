@@ -22,14 +22,14 @@ const slumber = () => {
 
 const sleepDom = () => {
   const domString = `<div class="header">
-  <h1>Sleep</h1>
+  <h1>Sleep <i class="fas fa-bed"></i></h1>
   </div>
   <div id="sleepy">
   <h2>${energy}</h2>
   </div>
   <div id = "sleepButtons">
-  <button id="napButton">Nap</button>
-  <button id="slumberButton">Sleep</button>
+  <button id="napButton" class='button'>Nap</button>
+  <button id="slumberButton" class='button'>Sleep</button>
   </div>
   </div>
     `;
@@ -47,4 +47,4 @@ const sleepButtons = () => {
   });
 };
 
-export default { sleepButtons, sleepDom };
+export default { sleepButtons, sleepDom, energy };

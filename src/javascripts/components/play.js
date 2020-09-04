@@ -22,14 +22,14 @@ const funButtonMeh = () => {
 
 const playDom = () => {
   const domString = `<div class="header">
-  <h1>Play</h1>
+  <h1>Play <i class="fas fa-football-ball"></i></h1>
   </div>
   <div id="playtime">
   <h2>${fun}</h2>
   </div>
   <div id = "playButtons">
-  <button id="reallyGoodFun">Very Fun</button>
-  <button id="okayFun">Some Fun</button>
+  <button id="reallyGoodFun" class='button'>Very Fun</button>
+  <button id="okayFun" class='button'>Some Fun</button>
   </div>
   </div>
     `;
@@ -47,4 +47,4 @@ const playButtons = () => {
   });
 };
 
-export default { playButtons, playDom };
+export default { playButtons, playDom, fun };

@@ -1,0 +1,11 @@
+$bgcolor: khaki;
+$textcolor: gold;
+$fontsize: 18px;
+$border: 1px solid black;
+
+#sleep {
+    background-color: $bgcolor;
+    color: $textcolor;
+    font-size: $fontsize;
+    border: $border;
+}

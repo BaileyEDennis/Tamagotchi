@@ -22,14 +22,14 @@ const violenceButton = () => {
 
 const fightDom = () => {
   const domString = `<div class="header">
-  <h1>Fight</h1>
+  <h1>Fight <i class="fas fa-fist-raised"></i></h1>
   </div>
   <div id="fightTime">
   <h2>${strength}</h2>
   </div>
   <div id = "fightButtons">
-  <button id="runAway">Run Away</button>
-  <button id="fightButton">Fight</button>
+  <button id="runAway" class='button'>Run Away</button>
+  <button id="fightButton" class='button'>Fight</button>
   </div>
   </div>
     `;
@@ -47,4 +47,4 @@ const fightButtons = () => {
   });
 };
 
-export default { fightButtons, fightDom };
+export default { fightButtons, fightDom, strength };
