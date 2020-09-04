@@ -1,4 +1,8 @@
-![image](./img/siteimage.png)
+<head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+
+![image](./img/siteimg.png)
 
 # Tamagotchi
 This project was meant as an entry into Sass. The project features four quadrants that display different things you can do with your Tamagotchi, including sleeping, fighting, eating, and playing! Each section also features a button that when clicked effects the energy level of each activity. It's a fun little project, please check it out and enjoy!
