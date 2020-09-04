@@ -11,6 +11,7 @@ This project was meant as an entry into Sass. The project features four quadrant
 
 ## Netlify
 [![Netlify Status](https://api.netlify.com/api/v1/badges/effdc51e-d3c6-40ce-a67c-a07404f3cda3/deploy-status)](https://app.netlify.com/sites/sharp-aryabhata-6c0aea/deploys)
+
 Checkout [the project!](https://sharp-aryabhata-6c0aea.netlify.app/)
 
 ## Code Snippets
