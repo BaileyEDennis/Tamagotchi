@@ -4,10 +4,10 @@
 This project was meant as an entry into Sass. The project features four quadrants that display different things you can do with your Tamagotchi, including sleeping, fighting, eating, and playing! Each section also features a button that when clicked effects the energy level of each activity. It's a fun little project, please check it out and enjoy!
 
 ## Technology used
--HTML
--Javascript and Jquery
--Sass
--Webpack
+- HTML
+- Javascript and Jquery
+- Sass
+- Webpack
 
 ## Netlify
 [![Netlify Status](https://api.netlify.com/api/v1/badges/effdc51e-d3c6-40ce-a67c-a07404f3cda3/deploy-status)](https://app.netlify.com/sites/sharp-aryabhata-6c0aea/deploys)
