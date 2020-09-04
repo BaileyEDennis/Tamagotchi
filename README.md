@@ -14,7 +14,7 @@ This project was meant as an entry into Sass. The project features four quadrant
 Checkout [the project!](https://sharp-aryabhata-6c0aea.netlify.app/)
 
 ## Code Snippets
-### Javascript 
+### Javascript @icn-camera
 ```javascript
 const eatingButtons = () => {
   $('#goodFood').on('click', () => {
