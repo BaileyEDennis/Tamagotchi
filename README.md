@@ -1,7 +1,3 @@
-<head>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-</head>
-
 ![image](./img/siteimg.png)
 
 # Tamagotchi
@@ -17,8 +13,8 @@ This project was meant as an entry into Sass. The project features four quadrant
 [![Netlify Status](https://api.netlify.com/api/v1/badges/effdc51e-d3c6-40ce-a67c-a07404f3cda3/deploy-status)](https://app.netlify.com/sites/sharp-aryabhata-6c0aea/deploys)
 Checkout [the project!](https://sharp-aryabhata-6c0aea.netlify.app/)
 
-## Code Snippet
-### Javascript <i class="fab fa-js-square"></i>
+## Code Snippets
+### Javascript 
 ```javascript
 const eatingButtons = () => {
   $('#goodFood').on('click', () => {
@@ -33,7 +29,7 @@ const eatingButtons = () => {
 
 export default { eatingButtons, eatDom, full };
 ```
-### Sass <i class="fab fa-sass"></i>
+### Sass 
 ```scss
 #app {
   display: flex;
