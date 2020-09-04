@@ -1,0 +1,11 @@
+$bgcolor: darksalmon;
+$textcolor: darkred;
+$fontsize: 18px;
+$border: 1px solid black;
+
+#fight {
+    background-color: $bgcolor;
+    color: $textcolor;
+    font-size: $fontsize;
+    border: $border;
+}

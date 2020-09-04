@@ -22,14 +22,14 @@ const eatButtonBad = () => {
 
 const eatDom = () => {
   const domString = `<div class="header">
-  <h1>Eat</h1>
+  <h1>Eat <i class="fas fa-utensils"></i></h1>
   </div>
   <div id="health">
   <h2>${full}</h2>
   </div>
   <div id = "foodButtons">
-  <button id="goodFood">Healthy</button>
-  <button id="badFood">Unhealthy</button>
+  <button id="goodFood" class='button'>Healthy</button>
+  <button id="badFood" class='button'>Unhealthy</button>
   </div>
   </div>
     `;
@@ -47,4 +47,4 @@ const eatingButtons = () => {
   });
 };
 
-export default { eatingButtons, eatDom };
+export default { eatingButtons, eatDom, full };

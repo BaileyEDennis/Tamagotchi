@@ -1,0 +1,13 @@
+$font-wieght-bold: bold;
+$text-color: black;
+
+#progress {
+  width: 100%;
+  height: 5rem;
+  margin-top: 2rem;
+  label {
+    font-weight: $font-wieght-bold;
+    color: $text-color;
+
+  }
+}
